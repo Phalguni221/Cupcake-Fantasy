@@ -10,3 +10,11 @@ Description from the game: The goal is to collect as many cupcakes as possible t
         then enough money can be made to save Peach's bakery! If you are unable to to catch all 50 in a row within 2 minutes, 
         then the game will end and the task is not completed.
 
+Things needed to be fixed:
+
+1.Peach has to move effortlessly throughout the grid.
+2.Cupcakes have to dissapear once they come into contact with Peach (collisions)
+3. Cupcakes which were not caught have to fall and fade once they reach the footer. 
+
+
+Credits:
