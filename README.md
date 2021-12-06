@@ -4,3 +4,12 @@ Description from the game: The goal is to collect as many cupcakes as possible t
 
 
 Credits:
+
+Princess Peach Presenting Image: https://disneyfanon.fandom.com/wiki/Princess_Peach
+
+Princess Peach Cute (Moveable Player) Image: https://ih1.redbubble.net/image.10279058.1260/sticker,375x360-bg,ffffff.png
+
+Cute Cloud Image: https://www.pngitem.com/middle/TxhRRx_cloud-animated-clipart-free-best-transparent-png-cute/
+
+Super Mario Video: https://www.youtube.com/watch?v=3ijDdxmoiX0
+
