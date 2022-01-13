@@ -17,6 +17,9 @@ body {
 .squares {
     height:100px;
     width:100px;
+    background-color:pink;
+    border-radius:50px;
+    border-color:black;
 }
 
 .grid div {
@@ -82,7 +85,4 @@ img {
     width:300px;
     height:200px;
 }
-
-
-
 
