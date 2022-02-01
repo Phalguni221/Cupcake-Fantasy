@@ -16,6 +16,19 @@ document.addEventListener('keydown', (event) => {
     console.log(event.key);
 });
 
+for (let i = 0;  i < 70; i++) {
+    let prin = parseInt(princess.style.left)
+    let x = parseInt(squares[i].left)
+if (x < prin || prin < x + 100) {
+    let prin1 = parseInt(princess.style.top)
+    let y = parseInt(squares[i].top)
+    if ( y < prin1 || prin1 < y + 100) {
+        console.log("collision")
+
+    }
+}
+}
+
 //Set the grid for the cupcakes falling from the sky
 const grid = document.querySelector('.grid')
 const DisplayResults = document.querySelector('.results')
@@ -77,38 +90,5 @@ function moveCupcakes() {
     const rightEdge = cupcakes[cupcakes.length - 1] % width === width - 1
 }
 
-// if (rightEdge && goingRight) {
-//     for (let i = 0; i < cupcakes.length; i++) {
-//         cupcakes[i] += width + 1
-//         direction = -1
-//         goingRight = false
-//     }
-// }
 
-// if (leftEdge && !goingRight) {
-//     for (let i = 0; i < cupcakes.length; i++) {
-//         cupcakes[i] += width - 1
-//         direction = 1
-//         goingRight = true
-//     }
-// }
-
-// for (let i = 0; i < cupcakes.length; i++) {
-//     cupcakes[i] += direction
-// }
-// // draw()
-
-// if (squares[currentCollectorIndex].classList.contains('cupcake', 'picture')) {
-//     DisplayResults.innerHTML("3 points!")
-//     // clearInterval(cupcakesId)
-// }
-
-// for (let i = 0; i < cupcakes.length; i++) {
-//     if (cupcakes[i] > squares.length) {
-//         let text = "Game Over! (Click Here to view your Scores!)";
-//         let result = text.link("scoreboard.html");
-//     }
-// }
-
-// setInterval(moveCupcakes, 500)
 
