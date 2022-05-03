@@ -1,0 +1,135 @@
+@import "utilities";
+@import "config";
+@import "btnConfig";
+
+
+head {
+  text-align: center;
+}
+
+@keyframes bgcolor {
+  0% {
+    background: linear-gradient(to top, rgb(64, 161, 199), skyblue, white);
+  }
+  20% {
+    background: linear-gradient(to top, rgb(64, 161, 199), skyblue, white);
+  }
+  40% {
+    background: linear-gradient(to top, rgb(117, 187, 214), rgb(119, 195, 224), white);
+  }
+  60% {
+    background: linear-gradient(to top, rgb(83, 151, 179), rgb(38, 111, 139), rgb(141, 95, 179));
+  }
+  80% {
+    background: linear-gradient(to top, rgb(94, 96, 221), darkblue, purple);
+  }
+  100% {
+    background: linear-gradient(to top, rgb(94, 96, 221), darkblue, purple);
+  }
+}
+body {
+  min-height: 100vh;
+  text-align: center;
+  -webkit-animation: bgcolor 20s infinite;
+  animation: bgcolor 40s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+.grid {
+  flex-wrap: wrap;
+  width: 1800px;
+  height: 400px;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.grid > div {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  background-color: pink;
+  border-radius: 50px;
+  border-color: black;
+  z-index: 1;
+  /* animation: fadeOut 10s; */
+  transition-property: height;
+  transition-duration: 4s;
+  transition-timing-function: vertical;
+  /* position:relative; */
+}
+
+.iframe {
+  size: 0.5px;
+}
+
+a {
+  color: black;
+  font-size: 100;
+  position: relative;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  font-style: italic;
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+}
+
+h3 {
+  background-color: black;
+  color: pink;
+  text-align: center;
+  font-size: 20px;
+  top: 100px;
+  right: 880px;
+}
+
+h4 {
+  color: hotpink;
+  font-size: 26px;
+}
+
+.grass {
+  background-color: forestgreen;
+  height: 20vh;
+}
+
+button {
+  background-color: black;
+  color: hotpink;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+}
+
+.PrincessPeachCute {
+  image-orientation: inherit;
+  border-radius: 10px;
+  position: relative;
+  z-index: 2;
+  /* left: 0px;
+   top: 0px; */
+}
+
+.CuteCloud {
+  width: 250px;
+  height: 150px;
+  position: relative;
+}
+
+
+/*# sourceMappingURL=style.scss.map */
