@@ -2,7 +2,7 @@
 @import "config";
 
 
-%btn {
+%table {
   display:inline-flex;
   border-radius: 20px;
   padding: 0px 20px;
@@ -14,9 +14,9 @@
   }
 }
 
-.btn-primary {
-  @extend %btn;
-  @include set-bg($tertiary-color);
+
+tr {
+    color:goldenrod;
 }
 
 .btn-secondary {
@@ -29,4 +29,3 @@ label {
   @include set-bg($secondary-color);
   text-align:center;
 }
-

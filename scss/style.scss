@@ -1,6 +1,7 @@
 @import "utilities";
 @import "config";
 @import "btnConfig";
+@import "tableConfig";
 
 
 head {
@@ -27,6 +28,7 @@ head {
     background: linear-gradient(to top, rgb(94, 96, 221), darkblue, purple);
   }
 }
+
 body {
   min-height: 100vh;
   text-align: center;
