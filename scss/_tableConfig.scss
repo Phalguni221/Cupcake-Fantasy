@@ -2,27 +2,24 @@
 @import "config";
 
 
-%table {
-  display:inline-flex;
+@mixin table {
   border-radius: 20px;
   padding: 0px 20px;
   margin: 3px;
-
-  &:hover {
-    transform: scale(.80);
-
+  border-color:black;
+  margin-top:100px;
+  margin-left:700px;
   }
-}
 
 
-tr {
-    color:goldenrod;
-}
+.table {
+    @include table; 
+  @include set-bg($table-background);
+  text-align:center;
+    }
 
-.btn-secondary {
-  @extend %btn;
-  @include set-bg($light-color);
-  border-radius:60%
+.tr {
+    border-color:black;
 }
 
 label {

@@ -31,6 +31,7 @@ if (x < prin || prin < x + 100) {
 
 //Set the grid for the cupcakes falling from the sky
 const grid = document.querySelector('.grid')
+const grid2 = document.querySelector('.grid2')
 const DisplayResults = document.querySelector('.results')
 let currentCollectorIndex = 50
 let width = 15
@@ -41,13 +42,21 @@ let cupcakesId = 1
 let goingRight = true
 
 
-
+//grid 1
 for (let i = 0;  i < 70; i++) {
     const squares = document.createElement('div')
     grid.appendChild(squares)
 }
 
 const squares = grid.children
+
+//grid2
+for (let i = 0;  i < 70; i++) {
+    const squares2 = document.createElement('div')
+    grid2.appendChild(squares)
+}
+
+const squares2 = grid2.children
 
 
 //Add and remove the cupcakes

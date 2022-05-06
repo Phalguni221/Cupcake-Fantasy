@@ -8,6 +8,8 @@ head {
   text-align: center;
 }
 
+
+
 @keyframes bgcolor {
   0% {
     background: linear-gradient(to top, rgb(64, 161, 199), skyblue, white);
@@ -52,20 +54,26 @@ body {
     opacity: 0;
   }
 }
+
+
+@mixin pinkCupcake {
+  color:pink;
+  background-color: pink;
+}
+
 .grid > div {
+  @include pinkCupcake;
   position: relative;
   height: 60px;
   width: 60px;
-  background-color: pink;
   border-radius: 50px;
-  border-color: black;
-  z-index: 1;
   /* animation: fadeOut 10s; */
   transition-property: height;
   transition-duration: 4s;
   transition-timing-function: vertical;
   /* position:relative; */
 }
+
 
 .iframe {
   size: 0.5px;
@@ -88,8 +96,33 @@ h2 {
   text-align: center;
   font-size: 35px;
 }
+.btn-primary {
+  
+  h3 {
+    background-color: black;
+    color: pink;
+    text-align: center;
+    font-size: 20px;
+    top: 100px;
+    right: 880px;
+  }
+      a {
+     
+        color: black;
+        font-size: 100;
+        position: relative;
+
+           &:hover {
+          color:red;
+        }
+          &:active {
+            color:yellow;
+          } 
+      }
+}
 
 h3 {
+  
   background-color: black;
   color: pink;
   text-align: center;
@@ -132,6 +165,3 @@ img {
   height: 150px;
   position: relative;
 }
-
-
-/*# sourceMappingURL=style.scss.map */
