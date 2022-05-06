@@ -1,6 +1,20 @@
 $font-stack: Trebuchet MS, Arial, sans-serif;
-$light-color: #FFC300;
-$primary-color: #000814;
-$secondary-color: #a2d0fc;
-$tertiary-color: #ffbb00;
+
+$orange:#ffbb00;
+$sky-blue:#a2d0fc;
+$black:#000814;
+$gold:#FFD700;
+$white:#FFFFFF;
+$pink:#FFC0CB;
+
+
+$primary-color: $sky-blue ;
+$secondary-color: $black ;
+$tertiary-color: $orange;
+$table-outline:$gold ;
+$table-background:$white ;
+$secondary-button:$pink ;
+
+//12 SCSS variables 
+
 

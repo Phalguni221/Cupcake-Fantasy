@@ -2,27 +2,45 @@
 @import "config";
 
 
-%btn {
+@mixin btn-primary {
   display:inline-flex;
   border-radius: 20px;
   padding: 0px 20px;
   margin: 3px;
-
-  &:hover {
-    transform: scale(.80);
-
-  }
+      &:hover {
+        transform: scale(.80);
+        color:red;
+      }
+      &:active {
+        color: yellow;
+        opacity:0.5;
+      }
 }
 
-.btn-primary {
-  @extend %btn;
+@mixin btn-secondary {
+  display:inline-flex;
+  border-radius: 20px;
+  padding: 0px 20px;
+  margin: 3px;
+      &:hover {
+        transform: scale(.80);
+        color:blue;
+      }
+      &:active {
+        color: red;
+        opacity: 0.5;
+      }
+}
+
+
+.btn-primary  {
+ @include btn-primary;
   @include set-bg($tertiary-color);
 }
 
 .btn-secondary {
-  @extend %btn;
-  @include set-bg($light-color);
-  border-radius:60%
+  @include btn-secondary;
+  @include set-bg($secondary-button);
 }
 
 label {
