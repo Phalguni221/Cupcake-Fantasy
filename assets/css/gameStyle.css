@@ -1,0 +1,237 @@
+.box {
+  max-width: 1100px;
+  max-height: 500px;
+  padding: 30 30px;
+  margin: 10 auto;
+  overflow: auto;
+}
+
+.box {
+  max-width: 1100px;
+  max-height: 500px;
+  padding: 30 30px;
+  margin: 10 auto;
+  overflow: auto;
+}
+
+.btn-primary {
+  display: inline-flex;
+  border-radius: 20px;
+  padding: 0px 20px;
+  margin: 3px;
+  background-color: #ffbb00;
+  color: white;
+}
+.btn-primary:hover {
+  transform: scale(0.8);
+  color: red;
+}
+.btn-primary:active {
+  color: yellow;
+  opacity: 0.5;
+}
+
+.btn-secondary {
+  display: inline-flex;
+  border-radius: 20px;
+  padding: 0px 20px;
+  margin: 3px;
+  background-color: #FFC0CB;
+  color: black;
+}
+.btn-secondary:hover {
+  transform: scale(0.8);
+  color: blue;
+}
+.btn-secondary:active {
+  color: red;
+  opacity: 0.5;
+}
+
+label {
+  background-color: #000814;
+  color: white;
+  text-align: center;
+}
+
+.box {
+  max-width: 1100px;
+  max-height: 500px;
+  padding: 30 30px;
+  margin: 10 auto;
+  overflow: auto;
+}
+
+.table {
+  border-radius: 20px;
+  padding: 0px 20px;
+  margin: 3px;
+  border-color: black;
+  margin-top: 100px;
+  margin-left: 700px;
+  margin-right: 50px;
+  background-color: #FFFFFF;
+  color: black;
+  width: 600px;
+  height: 600px;
+  text-align: center;
+}
+
+.td {
+  border-color: black;
+}
+
+.tr {
+  color: #ff00ff;
+  opacity: 0.5;
+}
+
+label {
+  background-color: #000814;
+  color: white;
+  text-align: center;
+}
+
+head {
+  text-align: center;
+}
+
+@keyframes bgcolor {
+  0% {
+    background: linear-gradient(to top, rgb(64, 161, 199), skyblue, white);
+  }
+  20% {
+    background: linear-gradient(to top, rgb(64, 161, 199), skyblue, white);
+  }
+  40% {
+    background: linear-gradient(to top, rgb(117, 187, 214), rgb(119, 195, 224), white);
+  }
+  60% {
+    background: linear-gradient(to top, rgb(83, 151, 179), rgb(38, 111, 139), rgb(141, 95, 179));
+  }
+  80% {
+    background: linear-gradient(to top, rgb(94, 96, 221), darkblue, purple);
+  }
+  100% {
+    background: linear-gradient(to top, rgb(94, 96, 221), darkblue, purple);
+  }
+}
+body {
+  min-height: 100vh;
+  text-align: center;
+  -webkit-animation: bgcolor 20s infinite;
+  animation: bgcolor 40s infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
+.grid {
+  flex-wrap: wrap;
+  width: 1800px;
+  height: 400px;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.grid > div {
+  color: pink;
+  background-color: pink;
+  position: relative;
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  /* animation: fadeOut 10s; */
+  transition-property: height;
+  transition-duration: 4s;
+  transition-timing-function: vertical;
+  /* position:relative; */
+}
+
+.iframe {
+  size: 0.5px;
+}
+
+a {
+  color: black;
+  font-size: 100;
+  position: relative;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  font-style: italic;
+}
+
+.btn-primary h3 {
+  background-color: black;
+  color: pink;
+  text-align: center;
+  font-size: 20px;
+  top: 100px;
+  right: 880px;
+}
+.btn-primary a {
+  color: black;
+  font-size: 100;
+  position: relative;
+}
+.btn-primary a:hover {
+  color: red;
+}
+.btn-primary a:active {
+  color: yellow;
+}
+
+h3 {
+  background-color: black;
+  color: pink;
+  text-align: center;
+  font-size: 20px;
+  top: 100px;
+  right: 880px;
+}
+
+h4 {
+  color: hotpink;
+  font-size: 26px;
+}
+
+.grass {
+  background-color: forestgreen;
+  height: 20vh;
+}
+
+button {
+  background-color: black;
+  color: hotpink;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+}
+
+.PrincessPeachCute {
+  image-orientation: inherit;
+  border-radius: 10px;
+  position: relative;
+  z-index: 2;
+  /* left: 0px;
+   top: 0px; */
+}
+
+.CuteCloud {
+  width: 250px;
+  height: 150px;
+  position: relative;
+}
+
+/*# sourceMappingURL=gameStyle.scss.map */
