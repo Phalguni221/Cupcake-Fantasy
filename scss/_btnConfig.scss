@@ -2,6 +2,7 @@
 @import "config";
 
 
+
 @mixin btn-primary {
   display:inline-flex;
   border-radius: 20px;
@@ -33,16 +34,97 @@
 }
 
 
-.btn-primary  {
- @include btn-primary;
-  @include set-bg($tertiary-color);
+@mixin btn-Peach {
+  display:inline-flex;
+  border-radius: 20px;
+  padding: 0px 20px;
+  margin: 3px;
+      &:hover {
+        transform: scale(.80);
+        color:pink;
+      }
+      &:active {
+        color: red;
+        opacity: 0.5;
+      }
 }
 
-.btn-secondary {
-  @include btn-secondary;
-  @include set-bg($secondary-button);
+@mixin btn-likes {
+  // display:inline-flex;
+  border-radius: 10px;
+  padding: 0px 20px;
+  margin: 3px;
+      &:hover {
+        transform: scale(.80);
+        color:red;
+      }
+      &:active {
+        color: pink;
+        opacity: 0.5;
+      }
 }
 
+@mixin btn-dislikes {
+  // display:inline-flex;
+  border-radius: 10px;
+  padding: 0px 20px;
+  margin: 3px;
+      &:hover {
+        transform: scale(.80);
+        color:blue;
+      }
+      &:active {
+        color: pink;
+        opacity: 0.5;
+      }
+}
+
+@mixin btn-back {
+  // display:inline-flex;
+  border-radius: 10px;
+  padding: 0px 20px;
+  margin: 3px;
+      &:hover {
+        transform: scale(.80);
+        color:blue;
+      }
+      &:active {
+        color: pink;
+        opacity: 0.5;
+      }
+}
+
+  
+  .btn-primary  {
+    @include btn-primary;
+     @include set-bg($tertiary-color);
+   }
+   
+   .btn-secondary {
+     @include btn-secondary;
+     @include set-bg($secondary-button);
+   }
+
+   .btn-Peach {
+    @include btn-Peach;
+    @include set-bg($secondary-button);
+   }
+
+   .btn-likes {
+    @include btn-likes;
+    @include set-bg($secondary-button);
+   }
+
+   .btn-dislikes {
+    @include btn-dislikes;
+    @include set-bg($secondary-button);
+   }
+
+   .btn-back  {
+    @include btn-back;
+     @include set-bg($secondary-button);
+   }
+   
 label {
   @include set-bg($secondary-color);
   text-align:center;
