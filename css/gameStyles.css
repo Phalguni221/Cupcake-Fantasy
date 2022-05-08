@@ -1,0 +1,22 @@
+/* Error: Missing argument $opacity.
+ *    ,
+ * 32 | @function opacity($opacity) {
+ *    |           ================= declaration
+ * 33 |   @return opacity();
+ *    |           ^^^^^^^^^ invocation
+ *    '
+ *   scss\_tableConfig.scss 33:11  opacity()
+ *   scss\_tableConfig.scss 33:11  opacity()
+ *   scss\_tableConfig.scss 40:9   @import
+ *   scss\style.scss 4:9           root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Missing argument $opacity.\a    \2577 \a 32 \2502  @function opacity($opacity) {\d\a    \2502            \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501  declaration\a 33 \2502    @return opacity();\d\a    \2502            ^^^^^^^^^ invocation\a    \2575 \a   scss\\_tableConfig.scss 33:11  opacity()\a   scss\\_tableConfig.scss 33:11  opacity()\a   scss\\_tableConfig.scss 40:9   @import\a   scss\\style.scss 4:9           root stylesheet";
+}
