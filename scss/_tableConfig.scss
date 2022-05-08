@@ -40,14 +40,15 @@ text-align:center;
 
   }
 
-.td {
+  .td {
     border-color:black; 
-}
+  };
+  
+  .tr {
+    color:($highlight-color);
+    opacity:($opacity);
+  }
 
-.tr {
-  color:($highlight-color);
-  opacity:($opacity);
-}
 
 label {
   @include set-bg($secondary-color);

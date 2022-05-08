@@ -48,6 +48,71 @@
   opacity: 0.5;
 }
 
+.btn-Peach {
+  display: inline-flex;
+  border-radius: 20px;
+  padding: 0px 20px;
+  margin: 3px;
+  background-color: #FFC0CB;
+  color: black;
+}
+.btn-Peach:hover {
+  transform: scale(0.8);
+  color: pink;
+}
+.btn-Peach:active {
+  color: red;
+  opacity: 0.5;
+}
+
+.btn-likes {
+  border-radius: 10px;
+  padding: 0px 20px;
+  margin: 3px;
+  background-color: #FFC0CB;
+  color: black;
+}
+.btn-likes:hover {
+  transform: scale(0.8);
+  color: red;
+}
+.btn-likes:active {
+  color: pink;
+  opacity: 0.5;
+}
+
+.btn-dislikes {
+  border-radius: 10px;
+  padding: 0px 20px;
+  margin: 3px;
+  background-color: #FFC0CB;
+  color: black;
+}
+.btn-dislikes:hover {
+  transform: scale(0.8);
+  color: blue;
+}
+.btn-dislikes:active {
+  color: pink;
+  opacity: 0.5;
+}
+
+.btn-back {
+  border-radius: 10px;
+  padding: 0px 20px;
+  margin: 3px;
+  background-color: #FFC0CB;
+  color: black;
+}
+.btn-back:hover {
+  transform: scale(0.8);
+  color: blue;
+}
+.btn-back:active {
+  color: pink;
+  opacity: 0.5;
+}
+
 label {
   background-color: #000814;
   color: white;
@@ -161,13 +226,14 @@ a {
   color: black;
   font-size: 100;
   position: relative;
+  color: aquamarine;
 }
 
 h1 {
-  color: black;
   text-align: center;
   font-size: 40px;
   font-style: italic;
+  color: white;
 }
 
 .btn-primary h3 {
@@ -234,4 +300,4 @@ img {
   position: relative;
 }
 
-/*# sourceMappingURL=gameStyle.scss.map */
+/*# sourceMappingURL=gameStyle.css.map */
